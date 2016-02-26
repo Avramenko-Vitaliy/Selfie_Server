@@ -9,10 +9,6 @@ import retrofit.mime.TypedFile;
 
 import java.util.List;
 
-/**
- * Created by Виталий on 06.10.2015.
- */
-
 public interface SelfieSvcApi
 {
     String ID_PARAM="id";

@@ -10,10 +10,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import javax.persistence.*;
 import java.util.Collection;
 
-/**
- * Created by Виталий on 06.10.2015.
- */
-
 @Entity
 public class User implements UserDetails
 {

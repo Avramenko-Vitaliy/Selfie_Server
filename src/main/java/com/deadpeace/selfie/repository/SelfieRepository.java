@@ -9,10 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by Виталий on 07.10.2015.
- */
-
 @Repository
 public interface SelfieRepository extends JpaRepository<Selfie,Long>
 {

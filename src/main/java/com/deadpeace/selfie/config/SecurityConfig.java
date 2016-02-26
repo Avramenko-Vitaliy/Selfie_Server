@@ -13,16 +13,11 @@ import org.springframework.security.web.savedrequest.NullRequestCache;
 
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by Виталий on 07.10.2015.
- */
-
 @Configuration
 @EnableWebMvcSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter
 {
     @Autowired
-    @Qualifier("userService")
     private UserDetailsService service;
 
     @Autowired

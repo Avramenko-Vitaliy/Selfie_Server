@@ -1,18 +1,8 @@
 package com.deadpeace.selfie.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.google.common.base.Objects;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
-
-/**
- * Created by Виталий on 07.10.2015.
- */
 
 @Entity
 public class Selfie

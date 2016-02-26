@@ -14,9 +14,6 @@ import retrofit.mime.TypedFile;
 import java.io.File;
 import java.io.FileOutputStream;
 
-/**
- * Created by Виталий on 06.10.2015.
- */
 public class TestServer
 {
     private static final String TEST_URL="https://localhost:8443";

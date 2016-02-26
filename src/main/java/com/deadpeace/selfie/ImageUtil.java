@@ -7,9 +7,6 @@ import java.awt.image.BufferedImage;
 import java.awt.image.RescaleOp;
 import java.awt.image.WritableRaster;
 
-/**
- * Created by Виталий on 09.10.2015.
- */
 public class ImageUtil
 {
     private ImageUtil()

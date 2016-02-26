@@ -16,10 +16,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import javax.servlet.MultipartConfigElement;
 import java.io.File;
 
-/**
- * Created by Виталий on 06.10.2015.
- */
-
 @EnableWebMvc
 @SpringBootApplication
 public class Application extends WebMvcAutoConfiguration

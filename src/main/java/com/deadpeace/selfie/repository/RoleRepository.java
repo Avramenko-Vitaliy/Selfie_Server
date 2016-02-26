@@ -7,9 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-/**
- * Created by Виталий on 07.10.2015.
- */
 @Repository
 public interface RoleRepository extends JpaRepository<UserRole,Long>
 {

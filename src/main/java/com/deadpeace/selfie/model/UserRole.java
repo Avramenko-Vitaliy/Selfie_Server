@@ -6,10 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-/**
- * Created by Виталий on 06.10.2015.
- */
-
 @Entity
 public class UserRole implements GrantedAuthority
 {
